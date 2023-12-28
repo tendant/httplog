@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"log/slog"
+	"golang.org/x/exp/slog"
 )
 
 var defaultOptions = Options{

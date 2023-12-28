@@ -2,8 +2,9 @@ package httplog
 
 import (
 	"encoding/json"
-	"log/slog"
 	"reflect"
+
+	"golang.org/x/exp/slog"
 )
 
 // StructValue will convert a struct or slice of structs to a slog.Value

@@ -8,7 +8,7 @@ import (
 	"sync"
 	"time"
 
-	"log/slog"
+	"golang.org/x/exp/slog"
 )
 
 type PrettyHandler struct {
